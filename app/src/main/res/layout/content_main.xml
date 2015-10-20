@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:id="@+id/contentMain">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEERS"
+        android:id="@+id/button2"
+        android:layout_weight="1"
+        android:background="@drawable/buttonshape"
+        android:textColor="#d17805"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:onClick="beerlist"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRINKS"
+        android:id="@+id/button3"
+        android:layout_weight="1"
+        android:background="@drawable/buttonshape"
+        android:textColor="#d17805"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:onClick="drinklist"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOLIDS"
+        android:id="@+id/button4"
+        android:layout_weight="1"
+        android:background="@drawable/buttonshape"
+        android:textColor="#d17805"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:onClick="menulist"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>
